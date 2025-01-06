@@ -62,7 +62,7 @@ To view the portfolio locally, follow these steps:
    npm run dev
    ```
 
-   Then, open your browser and go to `http://localhost:3000` to view the portfolio.
+   Then, open your browser and go to `https://ayoubnaim.netlify.app/` to view the portfolio.
 
 ## Features
 
