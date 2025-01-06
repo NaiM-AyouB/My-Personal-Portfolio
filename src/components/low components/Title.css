@@ -1,0 +1,42 @@
+.main__title {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-bottom: 16px;
+}
+.main__title h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__title .main__title-left {
+  background-color: var(--color-red);
+  position: absolute;
+  bottom: 0;
+  height: 10px;
+  aspect-ratio: 1/1;
+  left: 0;
+  transform: rotate(45deg);
+}
+.main__title .main__title-middle {
+  background-color: var(--color-red);
+  height: 2px;
+  width: calc(100% - 10px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 4px;
+}
+.main__title .main__title-right {
+  background-color: var(--color-red);
+  position: absolute;
+  bottom: 0;
+  height: 10px;
+  aspect-ratio: 1/1;
+  right: 0;
+  transform: rotate(45deg);
+}/*# sourceMappingURL=Title.css.map */

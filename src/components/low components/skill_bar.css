@@ -1,0 +1,31 @@
+.skill_bar {
+  width: 90%;
+}
+.skill_bar .text {
+  width: 100%;
+}
+.skill_bar .text .text-main {
+  float: left;
+}
+.skill_bar .text .text-number {
+  float: right;
+}
+.skill_bar .bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill_bar .bar .bar-active {
+  --order: 0;
+  width: 0%;
+  transition: width 0s 0s;
+  height: 4px;
+  background-color: var(--color-red);
+  margin-right: auto;
+}
+
+.skills-container.aos-animate .bar-active {
+  width: calc(var(--progress) * 1%);
+  transition: width 2s calc(var(--order) * 0.2s);
+}/*# sourceMappingURL=skill_bar.css.map */
